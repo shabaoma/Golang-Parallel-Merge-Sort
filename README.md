@@ -21,8 +21,8 @@
 
 ## Benchmark
 
-![CPU](https://raw.githubusercontent.com/shabaoma/sort_test/master/result/cpu.png)
-![MEM](https://raw.githubusercontent.com/shabaoma/sort_test/master/result/mem.png)
+![CPU](https://raw.githubusercontent.com/shabaoma/Golang-Parallel-Merge-Sort/master/result/cpu.png)
+![MEM](https://raw.githubusercontent.com/shabaoma/Golang-Parallel-Merge-Sort/master/result/mem.png)
 
 ### 计算时间
 数组过小时 MergeSortJ > MergeSortSSC > QuickSort ≒ MergeSortS  
