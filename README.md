@@ -20,7 +20,8 @@
 4. 并行归并排序（用n个携程）（MergeSortJ）
 
 ## Benchmark
-![CPU](https://raw.githubusercontent.com/shabaoma/Golang-Parallel-Merge-Sort/master/result/cpu.png)
+[Benchmark Data](https://github.com/shabaoma/Golang-Parallel-Merge-Sort/blob/master/result/%E5%AE%9E%E9%AA%8C%E7%BB%93%E6%9E%9C.txt)  
+![CPU](https://raw.githubusercontent.com/shabaoma/Golang-Parallel-Merge-Sort/master/result/cpu.png)  
 ![MEM](https://raw.githubusercontent.com/shabaoma/Golang-Parallel-Merge-Sort/master/result/mem.png)
 
 ## 计算时间
