@@ -20,15 +20,14 @@
 4. 并行归并排序（用n个携程）（MergeSortJ）
 
 ## Benchmark
-
 ![CPU](https://raw.githubusercontent.com/shabaoma/Golang-Parallel-Merge-Sort/master/result/cpu.png)
 ![MEM](https://raw.githubusercontent.com/shabaoma/Golang-Parallel-Merge-Sort/master/result/mem.png)
 
-### 计算时间
+## 计算时间
 数组过小时 MergeSortJ > MergeSortSSC > QuickSort ≒ MergeSortS  
 数组够大时 MergeSortJ > QuickSort ≒ MergeSortS > MergeSortSSC
 
-### 占用内存
+## 占用内存
 数组过小时 MergeSortJ > MergeSortSSC > MergeSortS > QuickSort  
 数组够大时 MergeSortJ > MergeSortSSC ≒ MergeSortS > QuickSort
 
@@ -128,5 +127,5 @@ MergeSortS和MergeSortSSC的内存占用量几乎没有区别。都是用在了�
 而当数组足够大时，同时排序子数组可以提高整体的排序速度。但是归并排序需要足够的内存。  
 快速排序在相同排序效率下用内存空间最少。但是很难通过并行的方法加快排序效率。
 
-# 参考
+# 相关链接
 [A Comparison of Parallel Sorting Algorithms on Different Architectures](https://parasol.tamu.edu/publications/download.php?file_id=191)
